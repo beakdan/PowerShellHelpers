@@ -15,7 +15,7 @@ Some helper functions for common task executed on git repositories. Although fun
 : Checks out the specified branch if it's not already checked out and returns an informative message
 
 * Sync-GitLocalRepository (Alias: *GitFetch*)
-: Executes a git Fetch and returns an informative message (*behind*, *up-to-date* or *ahead*)
+: Executes a git Fetch and returns an informative status string (*behind*, *up-to-date* or *ahead*)
 
 * Merge-GitWorkspaceFromRemote (Alias: *GitPull*)
 : Executes a Pull and returns the command output
